@@ -1,0 +1,87 @@
+@charset 'utf-8';
+
+* {
+  box-sizing: border-box;
+}
+
+.gps_box {
+  margin: 0 auto;
+  width: 65%;
+  height: 560px;
+  text-align: center;
+  background-color: #e5e5e5
+}
+
+.cctv {
+  margin: 0 auto;
+  width: 65%;
+  height: 560px;
+  text-align: center;
+  background-color: #e5e5e5
+}
+
+.io_cap_box {
+  width: 100%;
+}
+
+.auto_box {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.io_box {
+  background-color: #e5e5e5;
+  float: left;
+  width: 500px;
+  height: 550px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.cap_box {
+
+  float: left;
+  width: 500px;
+  height: 550px;
+  padding: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.box1 {
+  width: 465px;
+  height: 250px;
+  background-color: aqua;
+  margin-bottom: 15px;
+}
+
+.box2 {
+  width: 465px;
+  height: 250px;
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  /* For mobile phones: */
+  .io_box,
+  .cap_box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+
+  /* For mobile phones: */
+  .gps_box,
+  .io_cap_box,
+  .io_box,
+  .cap_box,
+  .cctv,
+  .box1,
+  .box2 {
+    width: 100%;
+  }
+}

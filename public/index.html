@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <meta charset="utf-8">
+    <title> Realtime GPS Location on Map </title>
+    </head>    
+    <body style="font-family:Verdana;color:#aaaaaa;">
+        <!-- <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+            <h1>header</h1>
+        </div> -->
+
+        <!--map size -->
+        <div id="map" style="width:100%;height:640px;"></div>
+        <p>
+            Latitude:  <input id="lati" type="text"> &nbsp;
+            Longitude: <input id="long" type="text"> &nbsp;
+        </p>
+          
+        <div style="overflow:auto">         
+            <div class="cctv">
+                <h2>CCTV</h2>
+            </div>
+          
+            <div class = "io_cap_box">
+                <div class = "auto_box">
+                    <div class="io_box">
+                        <h2>io_box</h2>
+                        <p>box_1</p>
+                    </div>
+            
+                    <div class="cap_box">
+                        <div class = "box1"><p>IO</p></div><!---box1-->
+                        <div class = "box2"><p>Push</p></div><!---box1-->
+                    </div>
+                </div>
+            </div><!--auto_box-->
+        </div><!--io_cap_box-->
+          
+          <div style=
+          "background-color:#e5e5e5;text-align:center;
+          padding:60px;
+          margin-top:30px;">
+          Push box</div>
+        <!-- kakao Map API APP KEY -->
+        <!--<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=YourJavascriptAppKey&libraries=services"></script>-->
+        
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=61a6107c5b12229930591d9cc07b9316"></script>
+        <script src="./javascripts/gps.js"></script>
+    </body>
+</html>
